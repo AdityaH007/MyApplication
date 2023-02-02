@@ -5,7 +5,7 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/peakpx"
+    android:background="@drawable/imgn"
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -83,17 +83,21 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
+
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
+        android:background="@drawable/round_btn"
         android:text="about"
+        android:textColorHighlight="#090909"
+        android:textColorLink="#100F0F"
+        app:iconTint="#FA0606"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.762" />
+        app:layout_constraintVertical_bias="0.761" />
 
     <TextView
         android:id="@+id/textView2"
